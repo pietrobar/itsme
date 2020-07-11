@@ -3,7 +3,8 @@
     <title>Curriculum</title>
     <link rel="stylesheet" href="css.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
 </head>
 <body>
     <div class="container">
@@ -93,12 +94,18 @@
         <section id="contact">
             <h1 id="contact-title">Contact</h1>
             <br>
-            <p class="lead"><img class="logo" src="img\mail.png" > <a href="mailto:pietro.barone98@gmail.com">pietro.barone98@gmail.com</a></p>
-            <br>
-            <p class="lead"><img class="logo" src="img\phone.png" > +39 3927193200</p>
-            <br>
-            <p class="lead"><img class="logo" src="img\github.png" > <a href="https://github.com/pietrobar">check my profile</a></p>
-            <br>
+            <div class="sm">
+                <button class="btn" onclick="location.href='https://www.facebook.com/pietro.barone.73';"><i id="fb" class="fab fa-facebook"></i></button>
+                <button class="btn" onclick="location.href='https://www.instagram.com/pietro__barone/?hl=it';"><i id="insta" class="fab fa-instagram"></i></button>
+                <button class="btn" onclick="location.href='https://github.com/pietrobar';"><i id="gith" class="fab fa-github"></i></button>
+                <br>
+                <button class="btn" onclick="location.href='mailto:pietro.barone98@gmail.com';"><i id="mail" class="fas fa-envelope"></i>  pietro.barone98@gmail.com</button>
+                <br>
+                <button class="btn"><i id="phone" class="fas fa-phone"></i>  +39 3927193200</button>
+                        
+            </div>
+                  
+
         </section>
     </div>
     <script src="fun.js"></script>
