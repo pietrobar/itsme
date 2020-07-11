@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #343a40;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:rgb(204, 109, 109);
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +32,7 @@ body {
     background-color: #000;
     color: #eee;
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .self-writing-container {
     height: 100vh;
@@ -93,7 +115,7 @@ body {
     color: rgb(204, 109, 109);
 }
   
-#home, #about, #contact{
+#home, #about{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +158,18 @@ section h1 {
   
 .highlight{
     color: #ffffff;
+    background: linear-gradient(to right, rgba(204, 109, 109,.5) 50%, transparent 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
 }
+
+.afterHigh {
+    color: #000;
+    background-position: left bottom;
+    transition: all 4s ease-out;
+}
+
+
 
 section>p {
     margin-left: 20%;
@@ -163,7 +196,16 @@ img{
 }
 
 #contact{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 20%;
     background-color: #D8DDEF;
+}
+#contact h1{
+    text-align: center;
 }
 
 #contact p, #contact h1{
