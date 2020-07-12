@@ -38,7 +38,7 @@
 	background-image: linear-gradient(19deg,rgb(204, 109, 109) 0%, #ff0055 100%);
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-	animation: morphing 30s linear infinite;
+	animation: morphing 10s linear infinite;
   }
   #c2{
     display: flex;
@@ -52,7 +52,7 @@
 	background-image: linear-gradient(19deg,rgb(204, 109, 109) 0%, #ff0055 100%);
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-	animation: morphing 30s linear reverse infinite;
+	animation: morphing 10s linear reverse infinite;
   }
   #c3{
     display: flex;
@@ -66,7 +66,7 @@
 	background-image: linear-gradient(19deg,rgb(204, 109, 109) 0%, #ff0055 100%);
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-	animation: morphing2 30s linear infinite;
+	animation: morphing2 10s linear infinite;
   }
   #c4{
     display: flex;
@@ -80,132 +80,41 @@
 	background-image: linear-gradient(19deg,rgb(204, 109, 109) 0%, #ff0055 100%);
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-	animation: morphing2 30s linear reverse infinite;
+	animation: morphing2 10s linear reverse infinite;
   }
   @keyframes morphing {
     0% {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
     }
-    5% { 
-        border-radius: 35% 46% 16% 45% / 76% 46% 54% 24%;
-    }
-    10% { 
-        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-    }
-    15% { 
-        border-radius: 66% 30% 43% 60% / 76% 46% 54% 24%;
-    }
-    20% { 
-        border-radius: 30% 27% 44% 27% / 76% 46% 54% 24%;
-    }
     25% { 
-        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+        border-radius: 18% 82% 23% 77% / 29% 59% 41% 71%  ;
     }
-    30% { 
-        border-radius: 50% 30% 35% 43% / 76% 46% 54% 24%;
-    }
-    35% { 
-        border-radius: 30% 27% 44% 59% / 76% 46% 54% 24%;
-    }
-    40% { 
-        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-    }
-    45% { 
-        border-radius: 50% 30% 35% 43% / 76% 46% 54% 24%;
-    }
+    
     50% {
-        border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-        
-    }55% { 
-        border-radius: 35% 46% 16% 45% / 76% 46% 54% 24%;
+        border-radius: 40% 60% 61% 39% / 74% 23% 77% 26%  ;
     }
-    60% { 
-        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-    }
-    65% { 
-        border-radius: 66% 30% 43% 80% / 76% 46% 54% 24%;
-    }
-    70% { 
-        border-radius: 78% 27% 44% 27% / 76% 46% 54% 24%;
-    }
+    
     75% {
-        border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;		
+        border-radius: 70% 30% 30% 70% / 83% 73% 27% 17%  ;		
     }
-    80% { 
-        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-    }
-    85% { 
-        border-radius: 30% 30% 43% 75% / 76% 46% 54% 24%;
-    }
-    90% { 
-        border-radius: 78% 27% 44% 27% / 76% 46% 54% 24%;
-    }
-    95% { 
-        border-radius: 30% 27% 44% 27% / 76% 46% 54% 24%;
-    }
+    
     }
     @keyframes morphing2 {
         0% {
-            border-radius: 40% 37% 38% 64% / 30% 30% 70% 70%;
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
             box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
         }
-        5% { 
-            border-radius: 69% 67% 55% 33% / 76% 46% 54% 24%;
-        }
-        10% { 
-            border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-        }
-        15% { 
-            border-radius: 69% 67% 55% 33% / 76% 46% 54% 24%;
-        }
-        20% { 
-            border-radius: 47% 88% 88% 53% / 76% 46% 54% 24%;
-        }
         25% { 
-            border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+            border-radius: 70% 30% 66% 34% / 67% 30% 70% 33%   ;
         }
-        30% { 
-            border-radius: 69% 67% 55% 33% / 76% 46% 54% 24%;
-        }
-        35% { 
-            border-radius: 47% 88% 88% 53% / 76% 46% 54% 24%;
-        }
-        40% { 
-            border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-        }
-        45% { 
-            border-radius: 69% 67% 55% 33% / 76% 46% 54% 24%;
-        }
+        
         50% {
-            border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-            
-        }55% { 
-            border-radius: 35% 46% 16% 45% / 76% 46% 54% 24%;
+            border-radius: 31% 69% 25% 75% / 67% 30% 70% 33%  ;
         }
-        60% { 
-            border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-        }
-        65% { 
-            border-radius: 69% 67% 55% 33% / 76% 46% 54% 24%;
-        }
-        70% { 
-            border-radius: 78% 27% 44% 27% / 76% 46% 54% 24%;
-        }
+        
         75% {
-            border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;		
-        }
-        80% { 
-            border-radius: 47% 88% 88% 53% / 76% 46% 54% 24%;
-        }
-        85% { 
-            border-radius: 30% 30% 43% 75% / 76% 46% 54% 24%;
-        }
-        90% { 
-            border-radius: 78% 27% 44% 27% / 76% 46% 54% 24%;
-        }
-        95% { 
-            border-radius: 47% 88% 88% 53% / 76% 46% 54% 24%;
+            border-radius: 50% 50% 56% 44% / 21% 65% 35% 79%   ;		
         }
     }
   .back{
@@ -218,7 +127,7 @@
     background-color: #ffffff;
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-	animation: morphing 30s linear infinite;
+	animation: morphing 10s linear infinite;
   }
   .back-content{
     color: #2c3e50;
@@ -232,6 +141,4 @@
   .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
   }
-  .boh{
-    padding-top: 30%;
-  }
+  

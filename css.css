@@ -228,6 +228,7 @@ img{
     transition: 0.1s ease-in;
     color: rgb(36, 93, 185);
     text-shadow: 5px 5px 10px #00000057;
+    font-size: 90px;
 }
 #insta::before{
     transition: .3s ease-out;
@@ -240,6 +241,7 @@ img{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 5px 5px 10px #00000057;
+    font-size: 90px;
 }
 #fb,#insta,#gith{
     font-size: 80px;
@@ -254,6 +256,7 @@ img{
     transition: 0.1s ease-in;
     color: #6f42c1;
     text-shadow: 5px 5px 10px #00000057;
+    font-size: 90px;
 }
 #mail::before{
     transition: .3s ease-out;
